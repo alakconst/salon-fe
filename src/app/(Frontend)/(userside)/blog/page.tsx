@@ -7,17 +7,12 @@ import TruncateText from '@/app/components/CutText';
 
 
 
-interface BlogPost {
-  id: number;
-  title: string;
-  content: string;
-  imageUrl: string;
-}
 
 
 
 
-const BlogPage: React.FC<BlogPost> = ({ }) => {
+
+const BlogPage: React.FC = ( ) => {
     
 
   return (
